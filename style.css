@@ -1,0 +1,124 @@
+
+#logo {
+    height: 20%;
+    width: 20%;
+}
+body {
+  background-color:  #000000;
+ 
+}
+
+
+.header {
+  background-color: #fcf2f0;
+  text-align: center;
+}
+/* instraction */
+.instraction {
+  margin-top: 42px;
+  margin-bottom: 21px;
+  text-align: center;
+}
+.instruction-row {
+  margin: 0 auto;
+  width: 400px;
+}
+.instructions-dot {
+  padding-left: 40px;
+  padding-bottom: 20px;
+  font-family: 'Work Sans';
+  font-size: 36px;
+  color: #fcf2f0;
+}
+.instructions-text {
+  padding: 10px;
+  font-family: 'Work Sans';
+  font-size: 16px;
+  color: #fcf2f0;
+}
+/* intro */
+.intro {
+  text-align: center;
+  opacity: 1;
+}
+.playButton {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #fcf2f0;
+  border: none;
+  color: #080808;
+  text-align: center;
+  font-size: 26px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.playButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.playButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -30px;
+  transition: 0.5s;
+}
+
+.playButton:hover span {
+  padding-right: 25px;
+}
+
+.playButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* hand-farm */
+input[type='image'] {
+    margin-top: 1rem;
+  
+}
+
+input[type='image'] {
+    width: 80px;
+}
+.game{
+    color: #fcf2f0;
+    text-align: center;
+}
+.hand-farme {
+  display: inline-block;
+  text-align: center;
+  font-size: .8rem;
+  margin: 0 auto;
+
+}
+div.fadOut {
+  opacity: 0;
+  pointer-events: none;
+}
+div.fadIn {
+  opacity: 1;
+  pointer-events: all;
+}
+h2 {
+  display: inline;
+}
+
+
+
+#button {
+    height: 20%;
+    width: 20%;
+}
+.about {
+    background-image: url(./sourc/AI_spending_14_April_2020.5e949dfad5c31.png);
+    background-size: cover;
+    margin-top: 100px;
+}

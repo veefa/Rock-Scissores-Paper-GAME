@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title></title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <div class="header">
+            <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShUVKMCcm30qr7o6PGk3sFDarBAsbh4Y1Zf96bJZRWc5_t-c8q&usqp=CAU" >
+        </div>
+        <div class="instraction">
+            <table class="instraction-row">
+                <tr>
+                    <td class="instructions-dot">.</td>
+                    <td class="instructions-text">
+                        ROCK wins over scissors (because rock smashes scissors)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="instructions-dot">.</td>
+                    <td class="instructions-text">
+                        SCISSORS wins over paper (because scissors cut paper)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="instructions-dot">.</td>
+                    <td class="instructions-text">
+                        PAPER wins over rock (because paper covers rock)
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="game fadOut">
+            <div class="score">
+                <div class="humanScore">
+                    <h2>Human</h2>
+                    <p>0</p>
+                    <div class="human">
+                        <input type="image" id="human-rock" class="hand-farme" alt="Login" src="./sourc/stone.jpg">
+                        <input type="image" id="human-paper" class="hand-farme" alt="Login" src="./sourc/paper.jpg">
+                        <input type="image" id="human-scissors" class="hand-farme" alt="Login" src="./sourc/scissors.jpg">
+                    </div>
+                </div>
+                <div class="computerScore">
+                    <h2>Computer</h2>
+                    <p>0</p>
+                    <div class="computer">
+                        <input type="image" id="computer-rock" class="hand-farme" alt="Login" src="./sourc/stone.jpg">
+                        <input type="image" id="computer-paper" class="hand-farme" alt="Login" src="./sourc/paper.jpg">
+                        <input type="image" id="computer-scissors" class="hand-farme" alt="Login" src="./sourc/scissors.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="match">
+                <h2 class="winner">Choose an option</h2>
+            
+            </div>
+        </div>    
+            <div class="intro">
+                <h1>Rock Paper Scissors</h1>
+                <button class="playButton" style="vertical-align:middle"><span>Let's PLAY </span></button>
+            </div>
+
+        <div class="about">
+            <img src="./sourc/AI_spending_14_April_2020.5e949dfad5c31.png" alt="">
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
